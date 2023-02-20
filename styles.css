@@ -2,6 +2,13 @@
 /* Your CSS Code here. */
 .holder{
 	display:grid;
-	grid-template-column:repeat(2,200px);
-	grid-template-row:repeat(2,200px);
+	grid-template-column:200px 200px
+	grid-template-row:200px 200px;
+	
+}
+.item{
+	display:inline-block;
+	margin:2px;
+	padding:20px;
+	background-color:blue
 }
